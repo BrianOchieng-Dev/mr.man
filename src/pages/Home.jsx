@@ -8,7 +8,7 @@ export default function Home(){
                 <Nav/>
 
                 <div>
-                    <h1>Mr Man Fitness</h1>
+                    <h1 class="text-2xl md:text-2xl lg:text-4xl">Mr Man Fitness</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium minima optio, 
                         ab ipsa ullam iste ad quisquam culpa est aut 
                         corporis numquam. Consectetur distinctio, earum laudantium repellendus animi atque 
