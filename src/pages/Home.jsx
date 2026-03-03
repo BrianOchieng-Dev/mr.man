@@ -13,7 +13,7 @@ export default function Home(){
                      <h2 className="text-gray-500 lg:px-12 md:px-6 px-2">
                         <span class="text-xl md:text-2xl lg:text-2xl text-green-500 p-2 border-2 rounded-2xl m-2">Built Strong</span>  
                         <span class="text-xl md:text-2xl lg:text-2xl text-green-500 p-2 border-2 rounded-2xl m-2">Living Sharp</span></h2>
-                    <h1 className="text-4xl md:text-8xl lg:text-12xl font-semibold text-blue-500 p-2 lg:p-4">Mr Man Fitness</h1>
+                    <h1 className="text-4xl md:text-8xl lg:text-12xl font-semibold text-blue-500 p-4 lg:p-4">Mr Man Fitness</h1>
                    
 
                     <div>
