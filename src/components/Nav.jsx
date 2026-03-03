@@ -1,18 +1,21 @@
 
 import {Link} from 'react-router-dom';
-
+import image from '../assets/img2.png';
 export default function Nav(){
     return(
         <>
-        <section>
-            <header>
-                <div></div>
-                <nav>
-                   <Link to="/">Home</Link>
-                   <Link to="/about">About</Link>
-                   <Link to="/contact">Contact</Link>
+        <section >
+            <header >
+                    <nav className="flex items-center justify-between p-4
+                     bg-white/50 backdrop-blur-2xl
+                    shadow-lg fixed top-0 left-0 z-50 w-full">
+                    <img src={image} alt="Logo" className="h-10 rounded-full"/>
+                    <div className='flex gap-3'>
+                    <Link to="/">Home</Link>
+                    <Link to="/about">About</Link>
                     <Link to="/contact">Contact</Link>
-                </nav>
+                    <Link to="/contact">Contact</Link></div>
+                    </nav>
             </header>
         </section>
         </>
