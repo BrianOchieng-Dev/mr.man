@@ -44,7 +44,7 @@ export default function Home(){
                             </p>
                         </div>
                         <div>
-                            <img src={profile} alt="fitness profile" className=''/>
+                            <img src={profile} alt="fitness profile" className='rounded-2xl'/>
                         </div>
                     </div>
             </section>
