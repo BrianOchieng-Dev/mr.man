@@ -7,19 +7,20 @@ export default function Home(){
         <main>
             
            <Nav/>
-            <section className='pt-20'>
+            <section className='pt-26'>
                 <div className="flex items-center justify-center flex-col text-center">
-                    <h1 className="text-4xl md:text-8xl lg:text-16xl font-bold text-blue-500">Mr Man Fitness</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium minima optio, 
-                        ab ipsa ullam iste ad quisquam culpa est aut 
-                        corporis numquam. Consectetur distinctio, earum laudantium repellendus animi atque 
-                        accusantium!</p>
+
+                     <h2 className="text-gray-500 lg:px-12 md:px-6 px-2">
+                        <span class="text-xl md:text-2xl lg:text-2xl text-green-500 p-2 border-2 rounded-2xl m-2">Built Strong..</span>  
+                        <span class="text-xl md:text-2xl lg:text-2xl text-green-500 p-2 border-2 rounded-2xl m-2">Living Sharp</span></h2>
+                    <h1 className="text-4xl md:text-8xl lg:text-12xl font-semibold text-blue-500">Mr Man Fitness</h1>
+                   
 
                     <div>
-                        <button>Book a Session</button>
+                        <button className="m-2 bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600">Book a Session</button>
                     </div>
-                    <div>
-                        <img src={heroImg} alt="Hero Image" className=''/>
+                    <div className='m-12'>
+                        <img src={heroImg} alt="Hero Image" className='shadow-lg rounded-2xl '/>
                     </div>
                 </div>
             </section>
