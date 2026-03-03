@@ -6,9 +6,8 @@ export default function Home(){
         <main>
             <section class="bg-[url('../assets/img.jpg')] bg-center bg-cover">
                 <Nav/>
-
-                <div>
-                    <h1 class="text-2xl md:text-2xl lg:text-4xl">Mr Man Fitness</h1>
+                <div class="flex items-center justify-center flex-col text-center">
+                    <h1 class="text-4xl md:text-8xl lg:text-16xl font-bold">Mr Man Fitness</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium minima optio, 
                         ab ipsa ullam iste ad quisquam culpa est aut 
                         corporis numquam. Consectetur distinctio, earum laudantium repellendus animi atque 
