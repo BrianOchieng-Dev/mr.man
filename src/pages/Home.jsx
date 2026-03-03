@@ -31,7 +31,7 @@ export default function Home(){
 
                     <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 items-center justify-center pt-4 pb-4">
                         <div>
-                            <p class="py-6 text-gray-500 text-center md:text-left lg:text-left">
+                            <p class="py-6 text-gray-500 text-left md:text-left lg:text-left">
                                 <span class="text-red-500 text-bold">Mr Man Fitness </span> is about disciplined training and purposeful living. It focuses on 
                                 building real strength, an aesthetic physique, and mental toughness through consistent 
                                 workouts, structured routines, and a growth-driven mindset. The goal is not quick results 
