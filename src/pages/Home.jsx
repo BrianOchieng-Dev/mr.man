@@ -3,13 +3,14 @@ import Nav from '../components/Nav'
 import heroImg from "../assets/img3.jpg";
 import profile from "../assets/img.jpg";
 import strength from "../assets/img4.jpg";
+import cardio from "../assets/img5.jpg";
 export default function Home(){
     return(
         <>
         <main>
             
            <Nav/>
-            <section className='pt-26'>
+            <section className='pt-26 bg-blue-100'>
                 <div className="flex items-center justify-center flex-col text-center">
 
                      <h2 className="text-gray-500 lg:px-12 md:px-6 px-2">
@@ -50,7 +51,7 @@ export default function Home(){
                     </div>
             </section>
 
-            <section id="service" className='bg-blue-50 p-6'>
+            <section id="service" className='bg-green-100 p-6'>
                 <h2 className="text-blue-500 text-2xl md:text-4xl lg:text-6xl text-semibold text-center">
                     Mr Man Services
                 </h2>
@@ -62,10 +63,30 @@ export default function Home(){
                         <p>Our strength training programs are designed to build muscle, increase power, and improve overall fitness through progressive overload and periodization.</p>
                         </div>
                         <div>
-                            <img src={strength} className='rounded-lg shadow-blue-500 shadow-lg' alt="strength training"/>
+                            <img src={strength} className='rounded-lg' alt="strength training"/>
                         </div>
                     </div>
-                    
+                     <div className="grid grid-cols-reverse-1 md:grid-cols-2 lg:grid-cols-2 gap-4 items-center justify-center pt-24 pb-24">
+
+                         <div>
+                            <img src={cardio} className='rounded-lg ' alt="cardio workout"/>
+                        </div>
+                        <div>
+                        <h3 className='text-3xl md:text-6xl lg:text-6xl leading-tight font-bold'>Cardio Workout</h3>
+                        <p>Our cardio workouts are designed to improve heart health, increase endurance, and boost metabolism through various aerobic exercises.</p>
+                        </div>
+                       
+                    </div>
+                    <div className="grid grid-cols-reverse-1 md:grid-cols-2 lg:grid-cols-2 gap-4 items-center justify-center pt-24 pb-24">
+                        <div>
+                        <h3 className='text-3xl md:text-6xl lg:text-6xl leading-tight font-bold'>Compound Movements</h3>
+                        <p>Our compound movement exercises are designed to engage multiple muscle groups simultaneously, maximizing strength gains and functional fitness.</p>
+                        </div>
+                        <div>
+                            <img src={cardio} className='rounded-lg ' alt="cardio workout"/>
+                        </div>
+                       
+                    </div>
                     </div>
                 </section>
         </main>
