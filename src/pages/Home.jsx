@@ -1,7 +1,7 @@
 
 import Nav from '../components/Nav'
-import heroImg from "../assets/img.jpg";
-import profile from "../assets/geff.jpeg";
+import heroImg from "../assets/img3.jpg";
+import profile from "../assets/img.jpg";
 export default function Home(){
     return(
         <>
@@ -48,6 +48,16 @@ export default function Home(){
                         </div>
                     </div>
             </section>
+
+            <section id="service">
+                <h2 className="text-blue-500 text-2xl md:text-4xl lg:text-6xl text-semibold text-center">
+                    Mr Man Services
+                </h2>
+
+                   <div>
+
+                    </div>
+                </section>
         </main>
         </>
     )
