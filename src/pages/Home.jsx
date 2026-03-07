@@ -4,6 +4,7 @@ import heroImg from "../assets/img3.jpg";
 import profile from "../assets/img.jpg";
 import strength from "../assets/img4.jpg";
 import cardio from "../assets/img5.jpg";
+import compound from "../assets/img6.jpg";
 export default function Home(){
     return(
         <>
@@ -77,13 +78,13 @@ export default function Home(){
                         </div>
                        
                     </div>
-                    <div className="grid grid-cols-reverse-1 md:grid-cols-2 lg:grid-cols-2 gap-4 items-center justify-center pt-24 pb-24">
+                    <div className="grid grid-cols-reverse md:grid-cols-2 lg:grid-cols-2 gap-4 items-center justify-center pt-24 pb-24">
                         <div>
                         <h3 className='text-3xl md:text-6xl lg:text-6xl leading-tight font-bold'>Compound Movements</h3>
                         <p>Our compound movement exercises are designed to engage multiple muscle groups simultaneously, maximizing strength gains and functional fitness.</p>
                         </div>
                         <div>
-                            <img src={cardio} className='rounded-lg ' alt="cardio workout"/>
+                            <img src={compound} className='rounded-lg ' alt="compound movements"/>
                         </div>
                        
                     </div>
