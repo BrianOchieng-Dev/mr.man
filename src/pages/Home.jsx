@@ -29,7 +29,7 @@ export default function Home(){
                 </div>
             </section>
             <section className="p-6">
-                <h2 className="text-blue-500 text-2xl md:text-4xl lg:text-6xl text-semibold text-center">
+                <h2 className="text-blue-500 text-2xl md:text-4xl lg:text-6xl font-semibold text-center">
                     About <span >Mr Man</span></h2>
 
                     <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 items-center justify-center pt-4 pb-4">
@@ -52,42 +52,43 @@ export default function Home(){
                     </div>
             </section>
 
-            <section id="service" className='bg-green-100 p-6'>
-                <h2 className="text-blue-500 text-2xl md:text-4xl lg:text-6xl text-semibold text-center">
+            <section id="service" className=' p-6'>
+                <h2 className="text-blue-500 text-2xl md:text-4xl lg:text-6xl font-semibold text-center">
                     Mr Man Services
                 </h2>
 
                    <div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 items-center justify-center pt-4 pb-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 items-center justify-center pt-6 pb-6 lg:pt-24 lg:pb-24">
                         <div>
                         <h3 className='text-3xl md:text-6xl lg:text-6xl leading-tight font-bold'>Strength Training</h3>
-                        <p>Our strength training programs are designed to build muscle, increase power, and improve overall fitness through progressive overload and periodization.</p>
+                        <p className=' text-green-500'>Our strength training programs are designed to build muscle, increase power, and improve overall fitness through progressive overload and periodization.</p>
                         </div>
                         <div>
                             <img src={strength} className='rounded-lg' alt="strength training"/>
                         </div>
                     </div>
-                     <div className="grid grid-cols-reverse-1 md:grid-cols-2 lg:grid-cols-2 gap-4 items-center justify-center pt-24 pb-24">
+                     <div className="grid grid-cols-reverse-1 md:grid-cols-2 lg:grid-cols-2 gap-4 items-center justify-center pt-6 pb-6 lg:pt-24 lg:pb-24">
 
                          <div>
                             <img src={cardio} className='rounded-lg ' alt="cardio workout"/>
                         </div>
                         <div>
                         <h3 className='text-3xl md:text-6xl lg:text-6xl leading-tight font-bold'>Cardio Workout</h3>
-                        <p>Our cardio workouts are designed to improve heart health, increase endurance, and boost metabolism through various aerobic exercises.</p>
+                        <p  className='text-green-500'>Our cardio workouts are designed to improve heart health, increase endurance, and boost metabolism through various aerobic exercises.</p>
                         </div>
                        
                     </div>
-                    <div className="grid grid-cols-reverse md:grid-cols-2 lg:grid-cols-2 gap-4 items-center justify-center pt-24 pb-24">
+                    <div className="grid grid-cols-reverse md:grid-cols-2 lg:grid-cols-2 gap-4 items-center justify-center pt-6 pb-6 lg:pt-24 lg:pb-24">
                         <div>
                         <h3 className='text-3xl md:text-6xl lg:text-6xl leading-tight font-bold'>Compound Movements</h3>
-                        <p>Our compound movement exercises are designed to engage multiple muscle groups simultaneously, maximizing strength gains and functional fitness.</p>
+                        <p className='text-green-500'>Our compound movement exercises are designed to engage multiple muscle groups simultaneously, maximizing strength gains and functional fitness.</p>
                         </div>
                         <div>
                             <img src={compound} className='rounded-lg ' alt="compound movements"/>
                         </div>
                        
                     </div>
+                    <h1 className="text-red-500 text-3xl md:text-6xl lg:text-6xl text-center font-bold leading-tight">Health Discipline. Build Confidence</h1>
                     </div>
                 </section>
         </main>
