@@ -2,6 +2,7 @@
 import Nav from '../components/Nav'
 import heroImg from "../assets/img3.jpg";
 import profile from "../assets/img.jpg";
+import strength from "../assets/img4.jpg";
 export default function Home(){
     return(
         <>
@@ -25,7 +26,7 @@ export default function Home(){
                     </div>
                 </div>
             </section>
-            <section className="px-6">
+            <section className="p-6">
                 <h2 className="text-blue-500 text-2xl md:text-4xl lg:text-6xl text-semibold text-center">
                     About <span >Mr Man</span></h2>
 
@@ -49,13 +50,22 @@ export default function Home(){
                     </div>
             </section>
 
-            <section id="service">
+            <section id="service" className='bg-blue-50 p-6'>
                 <h2 className="text-blue-500 text-2xl md:text-4xl lg:text-6xl text-semibold text-center">
                     Mr Man Services
                 </h2>
 
                    <div>
-
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 items-center justify-center pt-4 pb-4">
+                        <div>
+                        <h3 className='text-3xl md:text-6xl lg:text-6xl leading-tight font-bold'>Strength Training</h3>
+                        <p>Our strength training programs are designed to build muscle, increase power, and improve overall fitness through progressive overload and periodization.</p>
+                        </div>
+                        <div>
+                            <img src={strength} className='rounded-lg shadow-blue-500 shadow-lg' alt="strength training"/>
+                        </div>
+                    </div>
+                    
                     </div>
                 </section>
         </main>
