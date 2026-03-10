@@ -5,7 +5,7 @@ import profile from "../assets/img7.jpeg";
 import strength from "../assets/img4.jpg";
 import cardio from "../assets/img5.jpg";
 import compound from "../assets/img6.jpg";
-import Work from '../components/Work';
+import Work from '../components/work';
 import Count from '../components/Count';
 export default function Home(){
     return(
