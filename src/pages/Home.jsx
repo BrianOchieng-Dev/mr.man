@@ -60,8 +60,8 @@ export default function Home(){
                    <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-12 sm:gap-4 pt-6 lg:pt-12 pb-6 lg:pb-12'>
                     <div className="p-2 shadow-lg rounded-lg">
                         <div>
-                        <h3 className='text-2xl md:text-4xl lg:text-4xl leading-tight font-bold'>Strength Training</h3>
-                        <p className=' text-gray-500'>Our strength training programs are designed to build muscle, increase power, and improve overall fitness through progressive overload and periodization.</p>
+                        <h3 className='text-2xl md:text-4xl lg:text-4xl leading-tight font-bold text-red-500'>Strength Training</h3>
+                        <p className=' text-gray-500 pt-2 pb-2 lg:pt-4 lg:pb-4'>Our strength training programs are designed to build muscle, increase power, and improve overall fitness through progressive overload and periodization.</p>
                         </div>
                         <div>
                             <img src={strength} className='rounded-lg' alt="strength training"/>
@@ -71,8 +71,8 @@ export default function Home(){
                     
                      <div className="p-2 shadow-lg rounded-lg">
                         <div>
-                        <h3 className='text-2xl md:text-4xl lg:text-4xl leading-tight font-bold'>Cardio Workout</h3>
-                        <p  className='text-gray-500'>Our cardio workouts are designed to improve heart health, increase endurance, and boost metabolism through various aerobic exercises.</p>
+                        <h3 className='text-2xl md:text-4xl lg:text-4xl leading-tight font-bold text-red-500'>Cardio Workout</h3>
+                        <p  className=' text-gray-500 pt-2 pb-2 lg:pt-4 lg:pb-4'>Our cardio workouts are designed to improve heart health, increase endurance, and boost metabolism through various aerobic exercises.</p>
                         </div>
                         <div>
                             <img src={cardio} className='rounded-lg ' alt="cardio workout"/>
@@ -80,8 +80,8 @@ export default function Home(){
                     </div>
                     <div className="p-2 shadow-lg rounded-lg">
                         <div>
-                        <h3 className='text-2xl md:text-4xl lg:text-4xl leading-tight font-bold'>Compound Movements</h3>
-                        <p className='text-gray-500'>Our compound movement exercises are designed to engage multiple muscle groups simultaneously, maximizing strength gains and functional fitness.</p>
+                        <h3 className='text-2xl md:text-4xl lg:text-4xl leading-tight font-bold text-red-500'>Compound Movements</h3>
+                        <p className=' text-gray-500 pt-2 pb-2 lg:pt-4 lg:pb-4'>Our compound movement exercises are designed to engage multiple muscle groups simultaneously, maximizing strength gains and functional fitness.</p>
                         </div>
                         <div>
                             <img src={compound} className='rounded-lg ' alt="compound movements"/>
@@ -89,10 +89,19 @@ export default function Home(){
                        
                     </div>
                     </div>
-                    <h1 className="text-red-500 text-3xl md:text-6xl lg:text-6xl text-center font-bold leading-tight">Health Discipline. Build Confidence</h1>
+
+                      <div className="flex items-center justify-center">
+                        <button className="m-2 bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600">Book a Session</button>
+                    </div>
                 </section>
 
-                <section></section>
+                <section id="customer" className="bg-green-100">
+                    <h2 className="text-blue-500 text-2xl md:text-4xl lg:text-6xl font-semibold text-center">Customer Testimonials</h2>
+                    <div>
+
+                    </div>
+
+                </section>
         </main>
         </>
     )
