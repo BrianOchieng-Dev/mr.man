@@ -1,7 +1,7 @@
 
 import Nav from '../components/Nav'
 import heroImg from "../assets/img3.jpg";
-import profile from "../assets/img.jpg";
+import profile from "../assets/img7.jpeg";
 import strength from "../assets/img4.jpg";
 import cardio from "../assets/img5.jpg";
 import compound from "../assets/img6.jpg";
@@ -28,7 +28,7 @@ export default function Home(){
                     </div>
                 </div>
             </section>
-            <section className="p-6">
+            <section className="p-2 lg:p-4 md:p-4">
                 <h2 className="text-blue-500 text-2xl md:text-4xl lg:text-6xl font-semibold text-center">
                     About <span >Mr Man</span></h2>
 
@@ -52,7 +52,7 @@ export default function Home(){
                     </div>
             </section>
 
-            <section id="service" className=' p-6'>
+            <section id="service" className='p-2 lg:p-4 md:p-4'>
                 <h2 className="text-blue-500 text-2xl md:text-4xl lg:text-6xl font-semibold text-center">
                     Mr Man Services
                 </h2>
