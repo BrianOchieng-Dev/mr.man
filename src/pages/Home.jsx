@@ -5,7 +5,7 @@ import profile from "../assets/img7.jpeg";
 import strength from "../assets/img4.jpg";
 import cardio from "../assets/img5.jpg";
 import compound from "../assets/img6.jpg";
-import Work from '../components/Work';
+import Work from '../components/work';
 import Count from '../components/Count';
 export default function Home(){
     return(
@@ -52,6 +52,7 @@ export default function Home(){
                             <img src={profile} alt="fitness profile" className='rounded-lg'/>
                         </div>
                     </div>
+                    <div><Count/></div>
             </section>
 
             <section id="service" className='p-2 lg:p-4 md:p-4'>
