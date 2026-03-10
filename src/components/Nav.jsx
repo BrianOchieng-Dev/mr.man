@@ -12,9 +12,9 @@ export default function Nav(){
                     <img src={image} alt="Logo" className="h-10 rounded-full"/>
                     <div className='flex gap-3'>
                     <Link to="/">Home</Link>
-                    <Link to="/about">About</Link>
+                    <a href="#about">About</a>
                     <Link to="/contact">Contact</Link>
-                    <Link to="/contact">Contact</Link></div>
+                    <Link to="/contact">Book</Link></div>
                     </nav>
             </header>
         </section>
