@@ -1,6 +1,6 @@
 
 import {Link} from 'react-router-dom';
-import image from '../assets/img2.png';
+import image from '../assets/img7.jpeg';
 export default function Nav(){
     return(
         <>

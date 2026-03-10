@@ -78,7 +78,7 @@ export default function Home(){
                         </div>
                        
                     </div>
-                    <div className="grid grid-cols-reverse md:grid-cols-2 lg:grid-cols-2 gap-4 items-center justify-center pt-6 pb-6 lg:pt-24 lg:pb-24">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 items-center justify-center pt-6 pb-6 lg:pt-24 lg:pb-24">
                         <div>
                         <h3 className='text-3xl md:text-6xl lg:text-6xl leading-tight font-bold'>Compound Movements</h3>
                         <p className='text-green-500'>Our compound movement exercises are designed to engage multiple muscle groups simultaneously, maximizing strength gains and functional fitness.</p>
@@ -91,6 +91,8 @@ export default function Home(){
                     <h1 className="text-red-500 text-3xl md:text-6xl lg:text-6xl text-center font-bold leading-tight">Health Discipline. Build Confidence</h1>
                     </div>
                 </section>
+
+                <section></section>
         </main>
         </>
     )
